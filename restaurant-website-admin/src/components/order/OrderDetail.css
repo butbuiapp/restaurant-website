@@ -1,0 +1,50 @@
+.order_detail h1 {
+  margin-bottom: 1rem;
+}
+
+.order_detail h3 {
+  text-align: right;
+  margin: 1rem 0.25rem;
+}
+.order_detail {
+  width: 100%;
+}
+
+.order_detail .table {
+  table-layout: auto;
+  border-collapse: collapse;
+  box-shadow: 0px 1px 10px #ccc;
+  border-radius: 10px;
+  white-space: nowrap;
+  margin: auto;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.order_detail .table thead {
+  background-color: #ccc;
+  color: #222;
+  text-align: left;
+}
+
+.order_detail .table th {
+  padding: 1rem 1rem;
+}
+
+.order_detail .table td {
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.order_detail .table tbody tr:hover {
+  background-color: #eee;
+}
+
+.order_detail table img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}

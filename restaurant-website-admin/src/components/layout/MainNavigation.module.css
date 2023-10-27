@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  background-color: #d0a772;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin-left: 3rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.header a:hover,
+.header a.active {
+  color: white;
+}
+
+.btn_logout {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_logout:hover,
+.btn_logout:active {
+  color: white;
+}

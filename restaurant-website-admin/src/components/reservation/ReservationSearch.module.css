@@ -1,0 +1,48 @@
+.reservation_search {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 2rem;
+}
+
+.reservation_search input[type=text] {
+    display: block;
+    width: 80%;
+    font-size: 1rem;
+    line-height: 2;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.control {
+    margin-bottom: 0.5rem;
+}
+
+.control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.select {
+    display: block;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 2rem;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
